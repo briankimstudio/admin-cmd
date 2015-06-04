@@ -9,5 +9,6 @@ Package Info | apt-cache show *name*  | pacman -Qi *name* |
 Package owns file | dpkg-query -S *filename* | pacman -Qo *filename* |
 List files in Package | dpkg -L *name* <br> dpkg -c *name.deb* | pacman -Ql *name* |
 List Installed Packages |dpkg --get-selections | pacman -Q |
+Search Packages | apt-cache search *name* | pacman -Ss *name* |
 Update Packages | sudo apt-get update | pacman -Syu |
 Upgrade Packages| sudo apt-get upgrade | pacman -U |
